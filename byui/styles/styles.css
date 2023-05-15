@@ -1,0 +1,29 @@
+* {
+    border: 2px solid rgb(66, 73, 201);
+}
+
+nav, footer {
+    background-color: steelblue;
+    color: white;
+    padding: 20px ;
+    margin: 20px auto ;
+}
+
+footer p {
+    font-size: 20px;
+    margin: 20px auto;
+}
+
+img {
+    width: 80%;
+}
+
+
+a:hover {
+    background-color:white;
+    color: rgb(44, 70, 216)
+}
+
+img {
+    width: 80%;
+}
