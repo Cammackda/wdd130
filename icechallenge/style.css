@@ -1,0 +1,32 @@
+body{
+    display: grid;
+    margin: 0;
+}
+
+.cheese, .lettuce, .tomato{
+    border: 13px solid rgb(85, 85, 85);
+    border-radius: 50%;
+    width: 20%;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+#bread{
+    width: 100%;
+}
+
+.lettuce{
+    margin: 0 4%;
+}
+
+
+#food{
+    text-align: center;
+    padding: 3%
+}
+
+
+footer{
+    background-color: gray;
+}

@@ -4,7 +4,7 @@
   /* change the values below to your colors from your palette */
   --primary-color: #30BCED   ;
   --secondary-color: #1F487E ;
-  --accent1-color: #1D3461;
+  --accent1-color: #2c3d60;
   --accent2-color: #98DFEA;
 
   /* change the values below to your chosen font(s) */
@@ -20,12 +20,14 @@
   --nav-link-color: #98DFEA;
   --nav-background-color: #1F487E;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: rgb(130, 178, 205);
+  --nav-hover-background-color: rgb(125, 144, 203);
 }
 
 
 body{
     background-color: var(--accent2-color);
+    padding: 0;
+    margin: 0;
 }
 
 #content {
@@ -34,11 +36,16 @@ body{
 }
 
 header{
-    background-color: var(--accent1-color);
+    background-color: rgb(79, 127, 194);
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-bottom: 0.5%;
 }
 
 .logo{
-    width: 80px;
+    width: 120px;
+    padding-bottom: 0.5%;
+    ;
 }
 .icon{
     width: 80px;
@@ -47,6 +54,8 @@ header{
 nav a{
     text-align: center;
     text-decoration: none ;
+    font-family: Georgia;
+    color: var(--nav-link-color);
 }
 nav a:hover{
     background-color: var(--nav-hover-background-color);
@@ -59,12 +68,33 @@ nav a:hover{
     text-align: center;
 }
 
-.home-title{
-    color: var(--paragraph-color-on-color) ;
+.icon{
+    border: #1D3461 4px ;
 }
 
+.home-title{
+    color: #1D3461 ;
+    font-family: Papyrus;
+    font-size: 66px;
+}
+
+.card-img{
+    border: 10px solid var(--nav-hover-background-color) ;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+h2 {
+    margin: 0;
+    
+}
+        
 h4{
-    color: var(--paragraph-color-on-color);
+    color: #1D3461;
+    font-family: Papyrus;
+    font-size: larger;
 }
 .button-box{
     text-align: center;
@@ -73,6 +103,14 @@ h4{
 .book, .join{
     background-color: rgb(255, 255, 255);
     text-decoration: none ;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+    font-family: Papyrus;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: var(--nav-hover-background-color);
@@ -80,32 +118,50 @@ h4{
 
 main section{
     text-align: center;
+    font-family: Papyrus;
+    font-size: 22px;
+    padding-bottom: 3%;
+    padding-top: 3%;
 }
 
 #background {
     height: 725px;
-    background-color: var(--nav-link-color);
+    background-color: #1F487E;
 }
 
+.mountains{
+    margin: 100px 0;
+}
 .msg{
     background-color: rgb(30, 72, 186);
+    padding-top: 1% ;
+    padding-bottom: 1%;
+    
 }
 .msg h2{
-    color: white
+    color: white;
+    font-family: Papyrus;
+    
 }
 .msg p{
     color: azure;
+    font-family: Papyrus;
 }
 
 footer{
     background-color: var(--accent1-color) ;
+    padding-top: 1% ;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    font-family: Georgia;
 }
 footer a{
     background-color: var(--nav-hover-background-color);
     text-decoration: none;
+    font-family: Georgia;
+     
 }
 
-footer a:hover{
-    background-color: var(--nav-background-color);
-    color: var(--accent2-color)
+footer a:hover {
+    color: #335597;
 }
