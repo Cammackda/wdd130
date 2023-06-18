@@ -1,0 +1,45 @@
+.body{
+    display: grid;
+    background-color: black;
+
+}
+
+.words{
+    font-size: 2em; 
+    font-weight: bold;
+}
+.card{
+    max-width: 250px;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.card img{
+    width: 250px;
+}
+
+.first{
+    text-align: center;
+    grid-column: 1/2;
+    text-decoration: white;
+}
+
+.second{
+    text-align: center;
+    grid-column: 2/3;
+    text-decoration: white;
+}
+
+.third{
+    text-align: center;
+    grid-column: 3/4;
+    text-decoration: white;
+}
+footer{
+    display: grid;
+    background-color: rgb(54, 65, 138);
+    grid-template-columns: 1fr 1fr 1fr ;
+
+}
