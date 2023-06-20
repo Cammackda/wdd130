@@ -147,10 +147,9 @@ main section img {
 }
 
 h2 {
-    margin: 0;
-    
+    margin: 0; 
 }
-        
+   
 h4{
     color: #ffffff;
     font-family: Papyrus;
@@ -198,6 +197,7 @@ main section{
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
 }
+
 .msg{
     background-color: rgb(30, 72, 186);
     padding-top: 1% ;
@@ -206,11 +206,12 @@ main section{
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
 }
+
 .msg h2{
     color: white;
-    font-family: Papyrus;
-    
+    font-family: Papyrus;  
 }
+
 .msg p{
     color: azure;
     font-family: Papyrus;
